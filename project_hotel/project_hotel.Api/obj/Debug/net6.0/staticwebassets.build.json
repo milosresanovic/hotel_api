@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "yuRF0qYA7/VaOTC8ClqoOwMzByMbTphrPeBSjlA/MO0=",
+  "Source": "project_hotel.Api",
+  "BasePath": "_content/project_hotel.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "project_hotel.Api\\wwwroot",
+      "Source": "project_hotel.Api",
+      "ContentRoot": "C:\\Users\\somir\\Desktop\\Skola\\TRECI TRIMESTAR\\asp\\project_hotel\\project_hotel\\project_hotel.Api\\wwwroot\\",
+      "BasePath": "_content/project_hotel.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\somir\\Desktop\\Skola\\TRECI TRIMESTAR\\asp\\project_hotel\\project_hotel\\project_hotel.Api\\wwwroot\\images\\0b666eed-2adf-4d1b-b369-aea889e778c6.png",
+      "SourceId": "project_hotel.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\somir\\Desktop\\Skola\\TRECI TRIMESTAR\\asp\\project_hotel\\project_hotel\\project_hotel.Api\\wwwroot\\",
+      "BasePath": "_content/project_hotel.Api",
+      "RelativePath": "images/0b666eed-2adf-4d1b-b369-aea889e778c6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0b666eed-2adf-4d1b-b369-aea889e778c6.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.Application.deps.json
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.Application.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.Application.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.DataAccess.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.Domain.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.DataAccess.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\bin\Debug\net6.0\project_hotel.Domain.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.csproj.AssemblyReference.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.AssemblyInfoInputs.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.AssemblyInfo.cs
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.csproj.CoreCompileInputs.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.csproj.CopyComplete
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\refint\project_hotel.Application.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\project_hotel.Application.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Application\obj\Debug\net6.0\ref\project_hotel.Application.dll

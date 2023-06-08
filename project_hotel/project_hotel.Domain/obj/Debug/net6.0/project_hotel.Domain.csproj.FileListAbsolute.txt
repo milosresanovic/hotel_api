@@ -1,0 +1,12 @@
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\bin\Debug\net6.0\project_hotel.Domain.deps.json
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\bin\Debug\net6.0\project_hotel.Domain.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\bin\Debug\net6.0\project_hotel.Domain.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.csproj.AssemblyReference.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.AssemblyInfoInputs.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.AssemblyInfo.cs
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\refint\project_hotel.Domain.dll
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\project_hotel.Domain.pdb
+C:\Users\somir\Desktop\Skola\TRECI TRIMESTAR\asp\project_hotel\project_hotel\project_hotel.Domain\obj\Debug\net6.0\ref\project_hotel.Domain.dll

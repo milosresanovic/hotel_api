@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>project_hotel.Api</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:project_hotel.Api.Controllers.ApartmentController.Get(project_hotel.Application.UseCases.DTO.Searches.SearchApartmentsDto,project_hotel.Application.UseCases.Queries.IGetApartmentsQuery)" -->
+        <member name="M:project_hotel.Api.Controllers.ApartmentController.Get(System.Int32,project_hotel.Application.UseCases.Queries.IFindApartmentQuery)">
+            <summary>
+            Finds aparmtent by identifier.
+            </summary>
+            <remarks>
+            Sample request: GET /api/apartment/3
+            </remarks>
+            <response code="200">Successfully return specific apartment</response>
+            <response code="404">There is no apartment with specific Id</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.ApartmentController.Post(project_hotel.Api.Core.Dto.CreateApartmentWithImagesDto,project_hotel.Application.UseCases.Commands.ICreateApartmentCommand)">
+            <summary>
+            Create new apartment.
+            </summary>
+            <remarks>
+            Form Params:
+            <b>- Id:</b> Identifier of apartment. <br/>
+            <b>- Name:</b> Name of aparmtent <br/>
+            <b>- Description:</b> Description of apartment <br/>
+            <b>- MaxPersons:</b> Number of maximum kapacity <br/>
+            <b>- Price:</b> Decimal number <br/>
+            <b>- CategoryId:</b> Category identifier <br/>
+            <b>- Equipmentsme:</b> Array of integers <br/>
+            <b>- Rooms:</b> Array of integers <br/>
+            <b>- Images:</b> Choose file... <br/>
+            </remarks>
+            <response code="204">Successfully changed apartment info</response>
+            <response code="422">Validation failure</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.ApartmentController.Put(System.Int32,project_hotel.Api.Core.Dto.UpdateApartmentWithImagesDto,project_hotel.Application.UseCases.Commands.IUpdateApartmentCommand)">
+            <summary>
+            Changes apartment specifications.
+            </summary>
+            <remarks>
+            <b>- Id:</b> Identifier of apartment. <br/>
+            <b>- Name:</b> Name of aparmtent <br/>
+            <b>- Description:</b> Description of apartment <br/>
+            <b>- MaxPersons:</b> Number of maximum kapacity <br/>
+            <b>- Price:</b> Decimal number <br/>
+            <b>- CategoryId:</b> Category identifier <br/>
+            <b>- Equipmentsme:</b> Array of integers <br/>
+            <b>- Rooms:</b> Array of integers <br/>
+            <b>- Images:</b> Choose file... <br/>
+            </remarks>
+            <response code="204">Successfully changed apartment info</response>
+            <response code="422">Validation failure</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.ApartmentController.Patch(System.Int32,project_hotel.Application.UseCases.Commands.IDeactivateApartmentCommand)">
+            <summary>
+            Deactivate apartment so new reservations are not allowed.
+            </summary>
+            <remarks>
+            Sample request: PATCH /api/apartment/3
+            </remarks>
+            <response code="204">Successfully deactivated apartment</response>
+            <response code="404">There is no apartment with specific Id</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.AuditLogController.Get(project_hotel.Application.UseCases.DTO.Searches.SearchAuditLogDto,project_hotel.Application.UseCases.Queries.IGetAuditLogsQuery)">
+            <summary>
+            Filter and get records from auditlog.
+            </summary>
+            <remarks>
+            Sample request: GET /api/auditlog?keyword=create
+            </remarks>
+            <response code="200">Successfully return specific apartment</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.CommentController.Post(project_hotel.Application.UseCases.DTO.CreateCommentDto,project_hotel.Application.UseCases.Commands.ICreateCommentCommand)">
+            <summary>
+            Creates new comment
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "ApartmentId" : 3 <br/>
+                    "UserId" : 12 <br/>
+                    "Text" : "String" <br/>
+                    "StarNumber" : 5 <br/>
+                }
+            </remarks>
+            <response code="201">Successfully created comment</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.CommentController.Delete(System.Int32,project_hotel.Application.UseCases.Commands.IDeleteCommentCommand)">
+            <summary>
+            Deletes comment from database
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/comment/3
+            </remarks>
+            <response code="204">Successfully delete comment</response>
+            <response code="401">Unauthorized</response>
+            <response code="404">There is no comment with specific Id</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.EquipmentController.Post(project_hotel.Application.UseCases.DTO.EquipmentDto,project_hotel.Application.UseCases.Commands.ICreateEquipmentCommand)">
+            <summary>
+            Creates new equipment.
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "Name" : "Novi equipment"
+                }
+            </remarks>
+            <response code="201">Successfully created new equipment</response>
+            <response code="422">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.PriceController.Post(project_hotel.Application.UseCases.DTO.CreatePriceDto,project_hotel.Application.UseCases.Commands.ICreatePriceCommand)">
+            <summary>
+            Creates new price
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "ApartmentId" : 3 <br/>
+                    "StartDate" : "2023-09-09" <br/>
+                    "Cost" : 120 <br/>
+                }
+            </remarks>
+            <response code="201">Successfully created comment</response>
+            <response code="401">Unauthorized</response>
+            <response code="422">Validation error</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:project_hotel.Api.Controllers.ReservationController.Get(project_hotel.Application.UseCases.DTO.Searches.SearchReservationsDto,project_hotel.Application.UseCases.Queries.IGetReservationsQuery)" -->
+        <member name="M:project_hotel.Api.Controllers.ReservationController.Post(project_hotel.Application.UseCases.DTO.ReservationDto,project_hotel.Application.UseCases.Commands.ICreateReservationCommand)">
+            <summary>
+            Creates new equipment.
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "ApartmentId" : 1,
+                    "UserId" : 1,
+                    "PersonsNumber" : 3,
+                    "DateFrom" : "2023-05-05",
+                    "DateTo" : "2023-05-10"
+                }
+            </remarks>
+            <response code="201">Successfully created new reservation</response>
+            <response code="422">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.ReservationController.Delete(System.Int32,project_hotel.Application.UseCases.Commands.IDeleteReservationCommand)">
+            <summary>
+            Deletes reservation.
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/reservation/3
+            </remarks>
+            <response code="204">Successfully deleted reservation</response>
+            <response code="404">There is no reservation with given id</response>
+            <response code="409">Reservation already started</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.TokenController.Post(project_hotel.Api.Controllers.TokenRequest)">
+            <summary>
+            Generates a token and returns it.
+            </summary>
+            <remarks>
+            Sample request: 
+                POST 
+                {
+                    "Email" : "email@gmail.com" <br/>
+                    "Pawword" : "Sifra123!" <br/>
+                }
+            </remarks>
+            <response code="201">Successfully created a new token</response>
+            <response code="404">User not found</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.TokenController.InvalidateToken(project_hotel.Api.Core.ITokenStorage)">
+            <summary>
+            Logout user
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/token 
+            Auhorization: BearerToken
+            </remarks>
+            <response code="204">Successfully invalidated token</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.UserController.Get(project_hotel.Application.UseCases.DTO.Searches.SearchUsersDto,project_hotel.Application.UseCases.Queries.IGetUsersQuery)">
+            <summary>
+            Gets filtered users
+            </summary>
+            <remarks>
+            Sample request: GET /api/user?keyword=Korisnik
+            </remarks>
+            <response code="200">Successfully returned users</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Unexpected Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.UserController.Post(project_hotel.Api.Core.Dto.CreateUserWithImageDto,project_hotel.Application.UseCases.Commands.ICreateUserCommand)">
+            <summary>
+            Creates user.
+            </summary>
+            <remarks>
+            Sample request: 
+                POST /api/user 
+                {
+                    "Username" : "username", <br/>
+                    "FirstName" : "FirstName", <br/>
+                    "LastName" : "LastName", <br/>
+                    "Email" : "email@gmail.com", <br/>
+                    "Password" : "Sifra123!" <br/>
+                }
+            </remarks>
+            <response code="201">Successfully deleted (IsActiv = false, DeletedAt = UTC.now)</response>
+            <response code="400">Validation error</response>
+            <response code="409">Conflict, Email or Username already exists.</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:project_hotel.Api.Controllers.UserController.Delete(System.Int32,project_hotel.Application.UseCases.Commands.IDeleteUserCommand)">
+            <summary>
+            Delete user.
+            </summary>
+            <remarks>
+            Sample request: DELETE /api/user/6
+            </remarks>
+            <response code="204">Successfully deleted (IsActiv = false, DeletedAt = UTC.now)</response>
+            <response code="401">Unouthorized.</response>
+            <response code="404">There is no user with specific Id.</response>
+            <response code="409">Conflict, User has future reservations</response>
+            <response code="500">Server Error</response>
+        </member>
+    </members>
+</doc>
